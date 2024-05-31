@@ -1,0 +1,173 @@
+$main-color: rgb(0, 21, 137);
+$sub-color: rgb(0, 154, 221);
+$white-color: rgb(255, 255, 255);
+$gray-color: rgb(128, 128, 128);
+
+.nav-li-css {  
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  align-items: flex-end; /* 세로로 맨 밑으로 정렬 */
+}
+
+.nav-header-css {
+  height: 60px;
+}
+
+.nav-header-css > .items-center,
+.nav-header-css > .items-center > nav {
+    height: 100%;
+}
+
+ul {
+    display: flex; /* 가로로 정렬 */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+// .nav-li-css:active {
+//   background-color: black;
+// }
+
+.active {
+    // border-bottom: 1px solid $main-color; /* 원하는 배경색으로 변경 */
+    color: $main-color;
+    font-weight: 600;
+    box-shadow: 0 2px 0 0px rgba(0, 21, 137, 0.75);
+  }
+
+
+  .nav-li-css a {
+    display: flex;
+    justify-content: center; /* 가로 정렬을 가운데로 */
+    align-items: center; /* 세로 정렬을 가운데로 */
+    padding: 10px 15px;
+    height: 100%;
+  }
+
+  
+//   .navigation-menu {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     width: 100%;
+//     height: 50px; /* 부모 요소의 높이를 명확히 설정 */
+//     background-color: $white-color;
+//     border-bottom: 0.1px solid $gray-color;
+//   }
+  
+//   .navigation-menu-container {
+//     display: flex;
+//     align-items: center;
+//     width: 100%;
+//     justify-content: space-between;
+//     height: 100%;
+//   }
+  
+//   .navigation-menu-list {
+//     display: flex;
+//     align-items: center;
+//     height: 100%;
+//   }
+  
+//   .navigation-menu-list ul {
+//     display: flex;
+//     align-items: center;
+//     list-style: none;
+//     padding-left: 0;
+//     margin: 0;
+//     height: 100%;
+//   }
+  
+//   .navigation-menu-list li {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     height: 100%; /* 부모 요소와 같은 높이로 설정 */
+//     margin-right: 10px;
+//   }
+  
+//   .navigation-menu-list a {
+//     white-space: nowrap;
+//     color: black;
+//     text-decoration: none;
+//     font-size: 16px;
+//     cursor: pointer;
+//     transition: color 0.3s ease;
+//   }
+  
+//   .navigation-menu-list a:hover {
+//     color: $main-color;
+//     font-weight: bold;
+//   }
+
+  
+//   .user-info {
+//     display: flex;
+//     align-items: center;
+//     justify-content: flex-end;
+//   }
+  
+//   img {
+//     margin-right: 20px;
+//   }
+  
+//   .search-box {
+//     display: flex; /* Flexbox 사용 */
+//     align-items: center;
+//     justify-content: space-between; /* 아이콘이 끝으로 가도록 설정 */
+//     width: 30%;
+//     border: 1px solid gray;
+//     border-radius: 50px;
+//     padding: 0px 10px; /* 양쪽 패딩 추가 */
+//     height: 65%;
+//   }
+
+  
+//   .search-box input {
+//     text-align: center;
+//     border: none;
+//     flex-grow: 1; /* 남은 공간을 채우도록 설정 */
+//     height: 100%;
+//   }
+  
+//   .search-box input:focus {
+//     outline: none;
+//   }
+  
+//   .logoStyle {
+//     padding: 10px;
+//     width: 110px;
+//     height: 30px;
+//   }
+  
+//   div {
+//     display: flex;
+//     align-items: center;
+//   }
+  
+//   .user-icon {
+//     width: 30px;
+//     height: 30px;
+//   }
+  
+//   .search-icon {
+//     margin: 0;
+//     padding: 3px;
+//     width: 25px;
+//     height: 25px;
+//   }
+  
+//   .search-icon:hover, .user-icon:hover {
+//     cursor: pointer;
+//     transform: scale(1.1);
+//     transition: transform 0.3s ease;
+//   }
+  
+//   .user-name {
+//     margin-right: 10px;
+//   }
+  
+//   .navigation-menu-list li.active {
+//     background-color: $sub-color; /* 클릭된 상태의 배경색 */
+//   }
